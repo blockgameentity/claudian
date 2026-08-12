@@ -91,6 +91,11 @@ export const PI_PROVIDER_ICON: ProviderIconSvg = {
   ],
 };
 
+export const JCODE_PROVIDER_ICON: ProviderIconSvg = {
+  viewBox: '0 0 24 24',
+  path: 'M4 4h16v12a6 6 0 0 1-6 6H7a1.5 1.5 0 0 1 0-3h4.5a3 3 0 0 0 3-3V7H4V4Z',
+};
+
 export const GROK_PROVIDER_ICON: ProviderIconSvg = {
   viewBox: '0 0 24 24',
   path: 'M3.25 3h4.18l4.8 6.64L17.88 3h3.17l-7.36 8.65L20.44 21h-4.18l-5.16-7.14L5.02 21H1.85l7.79-9.16L3.25 3Zm3.03 1.7 10.85 14.6h1.28L7.56 4.7H6.28Z',

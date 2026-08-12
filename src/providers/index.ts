@@ -3,6 +3,7 @@ import { ProviderWorkspaceRegistry } from '../core/providers/ProviderWorkspaceRe
 import { claudeProviderRegistration } from './claude/registration';
 import { codexProviderRegistration } from './codex/registration';
 import { grokProviderRegistration } from './grok/registration';
+import { jcodeProviderRegistration } from './jcode/registration';
 import { opencodeProviderRegistration } from './opencode/registration';
 import { piProviderRegistration } from './pi/registration';
 
@@ -12,6 +13,7 @@ export const BUILT_IN_PROVIDER_MODULES = [
   claudeProviderRegistration,
   codexProviderRegistration,
   grokProviderRegistration,
+  jcodeProviderRegistration,
   opencodeProviderRegistration,
   piProviderRegistration,
 ] as const;
